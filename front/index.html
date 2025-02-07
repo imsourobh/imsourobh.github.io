@@ -1,0 +1,72 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Professional Portfolio</h1>
+    </header>
+
+    <!-- Bio and Picture Section -->
+    <section id="bio-picture">
+        <div id="bio">
+            <h2>About Me</h2>
+            <p>Hello! I'm Soumik Das. I'm a passionate developer with expertise in building web applications. I love creating intuitive and user-friendly experiences.</p>
+        </div>
+        <div id="picture">
+            <img src="profile.png" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- Interactive Buttons -->
+    <section id="buttons">
+        <button id="skills-btn">Skills</button>
+        <button id="projects-btn">Projects</button>
+        <button id="experiences-btn">Experiences</button>
+    </section>
+
+    <!-- Content Display Area -->
+    <section id="content">
+        <div id="skills-content" class="hidden">
+            <h3>My Skills</h3>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>Express</li>
+            </ul>
+        </div>
+        <div id="projects-content" class="hidden">
+            <h3>My Projects</h3>
+            <p>Project 1: Description of Project 1</p>
+            <p>Project 2: Description of Project 2</p>
+        </div>
+        <div id="experiences-content" class="hidden">
+            <h3>My Experiences</h3>
+            <p>Experience 1: Description of Experience 1</p>
+            <p>Experience 2: Description of Experience 2</p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact-form">
+        <h2>Contact Me</h2>
+        <form id="contact">
+            <input type="text" id="name" placeholder="Your Name" required><br>
+            <input type="email" id="email" placeholder="Your Email" required><br>
+            <textarea id="message" placeholder="Your Message" rows="4" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
